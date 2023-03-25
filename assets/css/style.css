@@ -1,0 +1,60 @@
+*{
+    font-size: 2rem;
+}
+header{
+    display: inline-block;
+    background-color: black;
+    color:white;
+    position: fixed;
+    top:0;
+    width: 100vw;
+    height: 20vh;
+    z-index: 1;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+   
+}
+section{
+    width:10vw;
+    height:10vh;
+    background-color: rgba(212, 0, 255, 0.815);
+    color: white;
+    margin: 5%;
+    padding: 10%;
+    border: 6px dashed black;
+    position: relative;
+}
+
+aside{
+    position: absolute;
+    background-color: rgb(123, 151, 68);
+    color: black;
+    bottom:0;
+ 
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#heading{
+    letter-spacing: 3px;
+    margin-top: 2%;
+    padding-top: 2%;
+}
+
+
+.even{
+    background-color: rgb(223, 9, 9);
+}
+
+
+.even aside{
+    right:0;
+    bottom:20px;
+}
+
+.even aside p{
+    letter-spacing: 2px;
+}
