@@ -5,26 +5,62 @@
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Chadwick Kraus - Professional Portfolio</title>
+    <script src="https://kit.fontawesome.com/384ea4421e.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <header class="header">
-    <h1>Chadwick Kraus</h1>
-    <h2>Professional Web Developer</h2>
-        <nav class="navigation">
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Resume</a></li>
-            <li><a href="#">Kraus Fit</a></li>
-          </ul>
+    <section class="hero">
+        <nav>
+            <h2 class="name">Chadwick<span> Kraus</span></h2>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#kraus-fit">Kraus Fit</a></li>
+                <li><a href="https://www.linkedin.com/in/chadwick-kraus/"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a href="https://github.com/chadkraus87"><i class="fa-brands fa-github"></i></a></li>
+            </ul>
+            <button type="button"><a href="mailto: chad@kraus-fit.com">Contact</button></a>
         </nav>
-        <img src="assets/images/Chadwick Kraus headshot.jpg">
-    </header>
-<main>
-    <section>
-        <article>Hi, My name is Chadwick Kraus. Growing up in Austin, Texas, I have developed a love for the outdoors and breakfast tacos.</article>
     </section>
-</main>
+    <main>
+        <section class="content">
+            <div class="about-section">
+                <div class="inner-about">
+                    <h3>About</h3>
+                    <img src="assets/images/Chadwick Kraus headshot.jpg" alt="Photo of Chadwick Kraus"
+                            height="400" class="float-right">
+                    <article id="about">
+                        <p>My name is Chadwick Kraus and I am a Software Developer, IT Support Specialist, and a Fitness
+                            Professional living in Austin, Texas with my two dogs. When I'm not coding, I enjoy spending
+                            my time outdoors, hiking, and going to live music shows.</p>
+                    </article>
+                </div>
+            </div>
+            <div class="portfolio-section">
+                <h3>Portfolio</h3>
+                <a href="https://chadkraus87.github.io/CodeRefactor/"><img src="./assets/images/seo-mktg-site.png"
+                        class="float-right"></a>
+                <article id="portfolio">
+                    <p>Here is an example of a HTML and CSS code Refactoring assignment. More projects are coming soon.
+                    </p>
+                </article>
+            </div>
+            <div class="krausfit-section">
+                <h3>Kraus Fit</h3>
+                <a href="https://www.kraus-fit.com/"><img src="./assets/images/Kraus-Fit-Logo.png"
+                        class="float-right"></a>
+                <article id="kraus-fit">
+                    <p>Kraus Fit is a functional, progressive fitness and nutrition coaching program created by Chadwick
+                        Kraus.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>512.650.7633</p>
+        <p>© 2023 Chadwick Kraus</p>
+    </footer>
 </body>
-<footer></footer>
+
+</html>
