@@ -7,7 +7,7 @@ This is a professional portfolio landing page created for and by Chadwick Kraus.
 
 [Deployed App]
 
-![Chadwick Kraus headshot](assets/images/Chadwick.png)
+![Chadwick Kraus headshot](assets/images/Chadwick%20Kraus%20headshot.jpg)
 ![SEO Marketing Website Image](assets/images/seo-mktg-site.png)
 ![Kraus Fit Logo](assets/images/Kraus-Fit-Logo.png)
 
