@@ -5,7 +5,7 @@ A professional portfolio of work.
 
 This is a professional portfolio landing page created for and by Chadwick Kraus. This webpage displays an About section, Portfolio section, and a section about Chadwick's personal business, Kraus Fit. This webpage contains HTML semantics and a corresponding CSS stylesheet. Semantic tags have been included to improve SEO visibility and accessbility features.
 
-[Deployed App]
+[Deployed App](https://chadkraus87.github.io/Professional-Portfolio)
 
 ![Chadwick Kraus headshot](assets/images/Chadwick%20Kraus%20headshot.jpg)
 ![SEO Marketing Website Image](assets/images/seo-mktg-site.png)
