@@ -1,13 +1,15 @@
 # Professional-Portfolio
-A professional portfolio of work.
+A professional portfolio of work created and authored by Chadwick Kraus.
 
 ## Description
 
 This is a professional portfolio landing page created for and by Chadwick Kraus. This webpage displays an About section, Portfolio section, and a section about Chadwick's personal business, Kraus Fit. This webpage contains HTML semantics and a corresponding CSS stylesheet. Semantic tags have been included to improve SEO visibility and accessbility features.
 
+<!-- Flexbox, media queries, etc. alt tags, maintains seo standards for header, main, footer. -->
+
 [Deployed App](https://chadkraus87.github.io/Professional-Portfolio)
 
-![Chadwick Kraus headshot](assets/images/Chadwick%20Kraus%20headshot.jpg)
+![Chadwick Kraus headshot](assets/images/Chadwick-Kraus-headshot.jpg)
 ![SEO Marketing Website Image](assets/images/seo-mktg-site.png)
 ![Kraus Fit Logo](assets/images/Kraus-Fit-Logo.png)
 
@@ -43,3 +45,7 @@ This webpage highlights a short biography, a portfolio section, and professional
 ## License
 
 No license assigned.
+
+## Contact Me
+
+<!-- LinkedIn, Contact info, etc. -->
