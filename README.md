@@ -3,11 +3,11 @@ A professional portfolio of work created and authored by Chadwick Kraus.
 
 ## Description
 
-This is a professional portfolio landing page created for and by Chadwick Kraus. This webpage displays an About section, Portfolio section, and a section about Chadwick's personal business, Kraus Fit. This webpage contains HTML semantics and a corresponding CSS stylesheet. Semantic tags have been included to improve SEO visibility and accessbility features.
-
-<!-- Flexbox, media queries, etc. alt tags, maintains seo standards for header, main, footer. -->
+This is a professional portfolio landing page created for and by Chadwick Kraus. This webpage displays an About section, Portfolio section, and a section about Chadwick's personal business, Kraus Fit. This webpage contains HTML semantics and a corresponding CSS stylesheet. Semantic tags have been included to improve SEO visibility and accessbility features. This website displays the use of Flexbox, transitional CSS styling effects, and follows SEO standards for the header, main, and footer sections.
 
 [Deployed App](https://chadkraus87.github.io/Professional-Portfolio)
+
+![Front End Landing Page](/assets/images/PP-Landing-Page.png)
 
 ![Chadwick Kraus headshot](assets/images/Chadwick-Kraus-headshot.jpg)
 ![SEO Marketing Website Image](assets/images/seo-mktg-site.png)
@@ -15,7 +15,7 @@ This is a professional portfolio landing page created for and by Chadwick Kraus.
 
 ## Installation
 
-No installation necessary for this application.
+No installation necessary for this application. If you would like to use this code, you may clone down the repo.
 
 ## Usage
 
@@ -48,4 +48,7 @@ No license assigned.
 
 ## Contact Me
 
-<!-- LinkedIn, Contact info, etc. -->
+Email: chad@kraus-fit.com
+Phone: 512-650-7633
+[LinkedIn](https://www.linkedin.com/in/chadwick-kraus/) 
+[Kraus Fit](https://www.kraus-fit.com/)
