@@ -195,7 +195,7 @@ button a {
   margin-top: 25px;
 }
 
-.float-right:hover {
+.float-left:hover {
   transform: scale(1.1);
 }
 
