@@ -116,7 +116,7 @@ button a {
 #about {
   margin-bottom: 20px;
   padding: 10px;
-  height: 400px;
+  height: 350px;
   background-color: slateblue;
   color: whitesmoke;
   text-shadow: 2px 2px black;
@@ -138,7 +138,7 @@ button a {
 #portfolio {
   margin-bottom: 20px;
   padding: 50px;
-  height: 300px;
+  height: 400px;
   background-color: slateblue;
   color: whitesmoke;
   text-shadow: 2px 2px black;
@@ -179,6 +179,18 @@ button a {
   max-height: 350px;
   max-width: 300px;
   float: right;
+  margin-right: 25px;
+  margin-top: 25px;
+}
+
+.float-right:hover {
+  transform: scale(1.1);
+}
+
+.float-left {
+  max-height: 350px;
+  max-width: 300px;
+  float: left;
   margin-right: 25px;
   margin-top: 25px;
 }
