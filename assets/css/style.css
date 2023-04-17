@@ -1,20 +1,19 @@
 *:root {
   font-size: 2rem;
-  background-color: bisque;
-  font-family: "PT Sans", sans-serif;
+  background-image: url('../images/3drenderpplgreenshapes.jpg')
 }
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "PT Sans", sans-serif;
+  font-family: 'Signika Negative', sans-serif;
 }
 
 /* Hero banner */
 
 .hero {
-  background-color: rgba(98, 200, 127, 0.843);
+  background-color: #7fe4a2;
   background-size: cover;
   background-position: center;
 }
@@ -26,6 +25,7 @@
 nav {
   display: flex;
   align-items: center;
+  text-shadow: 2px 2px black;
   justify-content: space-between;
   padding-top: 40px;
   padding-left: 10%;
@@ -35,6 +35,7 @@ nav {
 .name {
   color: whitesmoke;
   font-size: 40px;
+  text-shadow: 2px 2px black;
 }
 
 span {
@@ -58,7 +59,7 @@ nav ul li a:hover {
 }
 
 button {
-  border: none;
+  border: black 2px solid;
   background: slateblue;
   padding: 12px 30px;
   border-radius: 30px;
@@ -92,36 +93,36 @@ button a {
   border-radius: 30%;
 }
 
-.about-section {
+.about-container {
+  position: fixed;
+  left: 0;
+  top: 10%;
+  width: 26%;
+  height: 100%;
   display: flex;
-  flex-direction: row;
-  width: 100% !important;
+  flex-direction: column;
+  text-align: center;
+  text-shadow: 1px 1px whitesmoke;
+  /* overflow-y: scroll; */
 }
 
-.inner-about {
-  width: 90%;
-  margin: 25px;
-}
-
-.portfolio-section {
-  width: 90%;
-  margin: 25px;
-}
-
+.portfolio-section,
 .krausfit-section {
-  width: 90%;
-  margin: 25px;
+  width: 75%;
+  margin-left: 25%;
+  text-shadow: 1px 1px whitesmoke;
 }
 
 #about {
   margin-bottom: 20px;
-  padding: 50px;
+  padding: 10px;
   height: 400px;
   background-color: slateblue;
   color: whitesmoke;
+  text-shadow: 2px 2px black;
   font-size: 25px;
   transition: 0.3s;
-  border: rgba(98, 200, 127, 0.843) solid 10px;
+  border: #7fe4a2 solid 10px;
   border-radius: 25px;
 }
 
@@ -131,7 +132,7 @@ button a {
 }
 
 #about p {
-  width: 75%;
+  width: 100%;
 }
 
 #portfolio {
@@ -140,9 +141,10 @@ button a {
   height: 300px;
   background-color: slateblue;
   color: whitesmoke;
+  text-shadow: 2px 2px black;
   font-size: 25px;
   transition: 0.3s;
-  border: rgba(98, 200, 127, 0.843) solid 10px;
+  border: #7fe4a2 solid 10px;
   border-radius: 25px;
 }
 
@@ -161,9 +163,10 @@ button a {
   height: 300px;
   background-color: slateblue;
   color: whitesmoke;
+  text-shadow: 2px 2px black;
   font-size: 25px;
   transition: 0.3s;
-  border: rgba(98, 200, 127, 0.843) solid 10px;
+  border: #7fe4a2 solid 10px;
   border-radius: 25px;
 }
 
@@ -184,8 +187,22 @@ button a {
   transform: scale(1.1);
 }
 
+.headshot {
+  max-height: 350px;
+  max-width: 300px;
+  align-self: center;
+  position: relative;
+  margin-right: 25px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  background-color: slateblue;
+  transition: 0.3s;
+  border: #7fe4a2 solid 10px;
+  border-radius: 20%;
+}
+
 img {
-  border-radius: 30%;
+  border-radius: 20%;
   float: right;
   padding: 20px;
 }
@@ -195,10 +212,12 @@ img {
 /* Footer code */
 
 .footer {
-  position: relative;
+  position: fixed;
+  bottom: 0;
   width: 100%;
-  background-color: rgba(98, 200, 127, 0.843);
+  background-color: #7fe4a2;
   color: whitesmoke;
+  text-shadow: 2px 2px black;
   text-align: center;
   display: flex;
   justify-content: space-evenly;

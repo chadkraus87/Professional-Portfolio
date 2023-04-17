@@ -12,6 +12,7 @@ This is a professional portfolio landing page created for and by Chadwick Kraus.
 ![Chadwick Kraus headshot](assets/images/Chadwick-Kraus-headshot.jpg)
 ![SEO Marketing Website Image](assets/images/seo-mktg-site.png)
 ![Kraus Fit Logo](assets/images/Kraus-Fit-Logo.png)
+![Background Image](assets/images/3drenderpplgreenshapes.jpg)
 
 ## Installation
 
@@ -40,6 +41,8 @@ This webpage highlights a short biography, a portfolio section, and professional
 [CSS Image Styling](https://www.w3schools.com/css/css3_images.asp)
 
 [Font Awesome](https://fontawesome.com/)
+
+[Unsplash](https://unsplash.com/photos/89okWnlSG3Y)
 
 
 ## License
