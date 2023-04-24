@@ -103,6 +103,7 @@ button a {
   flex-direction: column;
   text-align: center;
   text-shadow: 1px 1px whitesmoke;
+  overflow: auto;
   /* overflow-y: scroll; */
 }
 
@@ -111,12 +112,13 @@ button a {
   width: 75%;
   margin-left: 25%;
   text-shadow: 1px 1px whitesmoke;
+  overflow: auto;
 }
 
 #about {
   margin-bottom: 20px;
   padding: 10px;
-  height: 350px;
+  height: 500px;
   background-color: slateblue;
   color: whitesmoke;
   text-shadow: 2px 2px black;
@@ -124,6 +126,7 @@ button a {
   transition: 0.3s;
   border: #7fe4a2 solid 10px;
   border-radius: 25px;
+  overflow: auto;
 }
 
 #about:hover {
@@ -146,6 +149,7 @@ button a {
   transition: 0.3s;
   border: #7fe4a2 solid 10px;
   border-radius: 25px;
+  overflow: auto;
 }
 
 #portfolio:hover {
@@ -153,7 +157,7 @@ button a {
   color: white;
 }
 
-#portfolio p a {
+#portfolio li a {
   color: whitesmoke;
 }
 
@@ -168,6 +172,7 @@ button a {
   transition: 0.3s;
   border: #7fe4a2 solid 10px;
   border-radius: 25px;
+  overflow-wrap: normal;
 }
 
 #kraus-fit:hover {
