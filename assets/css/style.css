@@ -1,6 +1,7 @@
 *:root {
   font-size: 2rem;
-  background-image: url('../images/3drenderpplgreenshapes.jpg')
+  background-image: url("../images/pinkblueylwpop.jpg");
+  background-size: cover;
 }
 
 * {
@@ -13,7 +14,7 @@
 /* Hero banner */
 
 .hero {
-  background-color: #7fe4a2;
+  background: linear-gradient(to right, #0BA1D7, #E56CC7);
   background-size: cover;
   background-position: center;
 }
@@ -39,7 +40,7 @@ nav {
 }
 
 span {
-  color: slateblue;
+  color: #E56CC7;
 }
 
 nav ul li {
@@ -54,13 +55,13 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: slateblue;
+  color: #F7D603;
   transition: 0.3s;
 }
 
 button {
-  border: black 2px solid;
-  background: slateblue;
+  border: black 3px solid;
+  background: #0BA1D7;
   padding: 12px 30px;
   border-radius: 30px;
   color: whitesmoke;
@@ -97,34 +98,45 @@ button a {
   position: fixed;
   left: 0;
   top: 10%;
-  width: 26%;
+  width: 25%;
   height: 100%;
   display: flex;
   flex-direction: column;
   text-align: center;
   text-shadow: 1px 1px whitesmoke;
   overflow: auto;
-  /* overflow-y: scroll; */
 }
+
+.about-container .headshot img {
+  border-radius: 20%;
+  padding: 20px;
+}
+
 
 .portfolio-section,
 .krausfit-section {
   width: 75%;
   margin-left: 25%;
-  text-shadow: 1px 1px whitesmoke;
+  text-shadow: 2px 2px whitesmoke;
   overflow: auto;
 }
+
+.portfolio-section h3 {
+  width: 60%;
+  margin-left: 20%;
+}
+
 
 #about {
   margin-bottom: 20px;
   padding: 10px;
-  height: 500px;
-  background-color: slateblue;
+  height: 400px;
+  background-color: #082385;
   color: whitesmoke;
   text-shadow: 2px 2px black;
   font-size: 25px;
   transition: 0.3s;
-  border: #7fe4a2 solid 10px;
+  border: #E56CC7 solid 15px;
   border-radius: 25px;
   overflow: auto;
 }
@@ -139,15 +151,22 @@ button a {
 }
 
 #portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 60%;
+  margin-left: 20%;
   margin-bottom: 20px;
-  padding: 50px;
-  height: 400px;
-  background-color: slateblue;
+  padding: 50px 0;
+  height: auto;
+  background-color: #082385;
   color: whitesmoke;
   text-shadow: 2px 2px black;
   font-size: 25px;
   transition: 0.3s;
-  border: #7fe4a2 solid 10px;
+  border: #E56CC7 solid 15px;
   border-radius: 25px;
   overflow: auto;
 }
@@ -165,43 +184,29 @@ button a {
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;
-  background-color: slateblue;
+  background-color: #082385;
   color: whitesmoke;
   text-shadow: 2px 2px black;
   font-size: 25px;
   transition: 0.3s;
-  border: #7fe4a2 solid 10px;
+  border: #E56CC7 solid 15px;
   border-radius: 25px;
   overflow-wrap: normal;
 }
 
 #kraus-fit:hover {
   background-color: rgba(0, 0, 0, 0.843);
-  color: white;
 }
 
-.float-right {
+.portimg {
   max-height: 350px;
   max-width: 300px;
-  float: right;
-  margin-right: 25px;
-  margin-top: 25px;
+  padding: 20px;
+  border-radius: 50%;
 }
 
-.float-right:hover {
-  transform: scale(1.1);
-}
-
-.float-left {
-  max-height: 350px;
-  max-width: 300px;
-  float: left;
-  margin-right: 25px;
-  margin-top: 25px;
-}
-
-.float-left:hover {
-  transform: scale(1.1);
+.portimg:hover {
+  transform: scale(1.2);
 }
 
 .headshot {
@@ -212,16 +217,20 @@ button a {
   margin-right: 25px;
   margin-top: 25px;
   margin-bottom: 20px;
-  background-color: slateblue;
+  background-color: #F7D603;
   transition: 0.3s;
-  border: #7fe4a2 solid 10px;
+  border: #E56CC7 solid 15px;
   border-radius: 20%;
 }
 
-img {
-  border-radius: 20%;
+.krausfitimg {
+  border-radius: 50%;
   float: right;
   padding: 20px;
+}
+
+.krausfitimg:hover {
+  transform: scale(1.1);
 }
 
 /* End content code */
@@ -232,7 +241,7 @@ img {
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: #7fe4a2;
+  background: linear-gradient(to left, #0BA1D7, #E56CC7);
   color: whitesmoke;
   text-shadow: 2px 2px black;
   text-align: center;
