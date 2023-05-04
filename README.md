@@ -9,11 +9,6 @@ This is a professional portfolio landing page created for and by Chadwick Kraus.
 
 ![Front End Landing Page](/assets/images/profportpinkblue.png)
 
-![Chadwick Kraus headshot](assets/images/Chadwick-Kraus-headshot.jpg)
-![SEO Marketing Website Image](assets/images/seo-mktg-site.png)
-![Kraus Fit Logo](assets/images/Kraus-Fit-Logo.png)
-![Background Image](assets/images/pinkblueylwpop.jpg)
-
 ## Installation
 
 No installation necessary for this application. If you would like to use this code, you may clone down the repo.
